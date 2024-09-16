@@ -52,30 +52,63 @@ To create a new band, use:
 ```python
 band = create_band(session, "Band Name", "Hometown")
 
-## Contributing
 
+Yes, the structure and formatting you’ve provided will appear clean and organized in your README.md file. Here’s how it will look when rendered on GitHub or any Markdown viewer:
+
+Usage
+Create a Venue
+To create a new venue, use:
+
+python
+Copy code
+venue = create_venue(session, "Venue Title", "City")
+Create a Concert
+To create a new concert, use:
+
+python
+Copy code
+concert = create_concert(session, band, venue, "2024-08-30")
+List All Bands
+To list all bands, use:
+
+python
+Copy code
+bands = list_bands(session)
+List All Venues
+To list all venues, use:
+
+python
+Copy code
+venues = list_venues(session)
+List All Concerts
+To list all concerts, use:
+
+python
+Copy code
+concerts = list_concerts(session)
+Contributing
 Contributions are welcome! If you want to contribute to this project, please follow these steps:
 
-1. **Fork the repository**:
-   Click on the "Fork" button at the top right of this page to create a copy of the repository under your GitHub account.
+Fork the repository: Click on the "Fork" button at the top right of this page to create a copy of the repository under your GitHub account.
 
-2. **Create a new branch**:
-    ```bash
-    git checkout -b feature-branch
-    ```
+Create a new branch:
 
-3. **Make your changes**:
-   Edit or add files to implement your feature or fix.
+bash
+Copy code
+git checkout -b feature-branch
+Make your changes: Edit or add files to implement your feature or fix.
 
-4. **Commit your changes**:
-    ```bash
-    git commit -am 'Add new feature'
-    ```
+Commit your changes:
 
-5. **Push to the branch**:
-    ```bash
-    git push origin feature-branch
-    ```
+bash
+Copy code
+git commit -am 'Add new feature'
+Push to the branch:
 
-6. **Create a new Pull Request**:
-   Go to the original repository and click on "New Pull Request". Select your feature branch and submit the pull request.
+bash
+Copy code
+git push origin feature-branch
+Create a new Pull Request: Go to the original repository and click on "New Pull Request". Select your feature branch and submit the pull request.
+
+
+
