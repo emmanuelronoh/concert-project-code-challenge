@@ -1,0 +1,7 @@
+SQLAlchemy==2.0.13
+Alembic==1.11.0
+pytest==8.3.2
+pytest-cov==4.0.0
+pytest-mock==3.11.0
+
+
