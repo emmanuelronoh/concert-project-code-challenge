@@ -1,0 +1,9 @@
+# Ignore C++ build artifacts
+*.o
+*.obj
+*.dll
+*.exe
+
+# Ignore JavaScript or other unnecessary files
+*.js
+*.css
